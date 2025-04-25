@@ -10,8 +10,8 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: backend.amanpathakdevops.study
-      http:
+  - host: k8s-threetie-mainlb-73c240e86c-970863441.us-east-2.elb.amazonaws.com
+    http:
         paths:
           - path: /api
             pathType: Prefix
